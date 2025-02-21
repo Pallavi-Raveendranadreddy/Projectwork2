@@ -50,14 +50,18 @@ Deploy the model as a web application for real-time predictions.
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Training and Validation Performance Graph
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/a3068f41-1cc2-4c06-86d9-afd6a1e188f1)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Classification report
+![image](https://github.com/user-attachments/assets/5053f1f7-32cd-4722-91a5-90b662df0831)
 
-Detection Accuracy: 96.7%
+#### Output3 - Confusion Matrix
+![image](https://github.com/user-attachments/assets/13d3a8fb-a8ee-4048-b541-95fe9cd29f75)
+
+
+Detection Accuracy: 90%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
