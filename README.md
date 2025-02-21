@@ -4,18 +4,24 @@ This project focuses on classifying Alzheimer's MRI images using a hybrid deep l
 The precise evaluation of Alzheimer's disease through MRI image classification is crucial for early diagnosis and effective treatment planning. This project focuses on classifying Alzheimer's MRI brain images using a hybrid deep learning model that combines Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN). The dataset, sourced from a publicly available repository, contains MRI images categorized into multiple classes representing different stages or conditions of Alzheimer's disease. Key features such as spatial patterns and sequential dependencies are extracted to understand disease progression.Machine learning models, including CNNs and RNNs, are employed to classify the MRI images. Ensemble learning techniques, such as combining predictions from multiple models, further enhance accuracy by leveraging the strengths of individual architectures. The hybrid CNN-RNN framework achieves an accuracy of 94.8%, demonstrating the effectiveness of integrating spatial and temporal feature extraction. Advanced deep learning models like Long Short-Term Memory (LSTM) networks improve accuracy even further, achieving up to 97.5%.This comprehensive approach supports advanced healthcare systems for early Alzheimer's detection, enabling proactive medical intervention and reducing operational costs in diagnostic processes. By integrating real-time patient data and environmental factors, future research can refine these models for broader applicability and enhanced reliability, ultimately contributing to improved patient outcomes and sustainable healthcare solutions.
 ## Features
 1.Data Collection
+
 2.Data Preprocessing
+
 3.Feature Extraction
+
 4.Model Architecture
+
 5.Ensemble learning
+
 6.Evaluation Metrics
+
 7.Visualization
 
 ## Requirements
-### Hardware Requirements :
+##### Hardware Requirements :
 A system with a GPU is recommended for faster training of deep learning models.
 Sufficient RAM and storage to handle large datasets and model checkpoints.
-### Software Requirements :
+##### Software Requirements :
 Operating System : Compatible with Linux, Windows, or macOS.
 Programming Language : Python 3.7 or later.
 Libraries and Frameworks :
@@ -23,22 +29,22 @@ TensorFlow/Keras for building and training deep learning models.
 NumPy and Pandas for data manipulation.
 Matplotlib and Seaborn for visualizations.
 Scikit-learn for evaluation metrics and class weight computation.
-### Dataset :
+##### Dataset :
 A labeled dataset of MRI brain images categorized into different stages or conditions of Alzheimer's disease.
-### Development Environment :
+##### Development Environment :
 Jupyter Notebook or Google Colab for interactive development and visualization.
-### Version Control :
+##### Version Control :
 Use Git for collaborative development and effective code management.
-### Training Parameters :
+##### Training Parameters :
 Batch size: 32 images per batch.
 Image size: Resized to 128x128 pixels.
 Epochs: 25 (can be adjusted based on performance).
 Optimizer: Adam optimizer.
 Loss function: Sparse categorical cross-entropy.
-### Testing and Validation :
+##### Testing and Validation :
 Split the dataset into training (80%), validation (10%), and testing (10%) subsets.
 Evaluate the model on the test set to ensure generalization.
-### Future Enhancements :
+##### Future Enhancements :
 Integrate real-time patient data and environmental factors for broader applicability.
 Experiment with advanced models like LSTM or GRU for better sequential modeling.
 Deploy the model as a web application for real-time predictions.
@@ -50,18 +56,19 @@ Deploy the model as a web application for real-time predictions.
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Training and Validation Performance Graph
+### Output1 - Training and Validation Performance Graph
 
 ![image](https://github.com/user-attachments/assets/a3068f41-1cc2-4c06-86d9-afd6a1e188f1)
 
-#### Output2 - Classification report
+### Output2 - Classification report
 ![image](https://github.com/user-attachments/assets/5053f1f7-32cd-4722-91a5-90b662df0831)
 
-#### Output3 - Confusion Matrix
+### Output3 - Confusion Matrix
 ![image](https://github.com/user-attachments/assets/13d3a8fb-a8ee-4048-b541-95fe9cd29f75)
 
 
 Detection Accuracy: 90%
+
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
